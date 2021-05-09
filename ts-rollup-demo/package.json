@@ -1,0 +1,21 @@
+{
+  "name": "ts-rollup-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-build": "rollup -c",
+    "dev": "npm run dev-build && node ./dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "rollup": "^2.47.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
